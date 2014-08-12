@@ -3,3 +3,8 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  div
+    span#count 0
+  div
+    input#message(value='Hello, world!')
+    button#send send
